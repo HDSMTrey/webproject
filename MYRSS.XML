@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+ <title>ITWD6.408 Paper: Advanced Web application development</title>
+ <link>http://www.eit.ac.nz</link>
+ <description>Online tutorials</description>
+
+ <item>
+ <title>Client-server model</title>
+ <link>https://www.eit.ac.nz/subject-areas/computing/</link>
+ <description>This topic is all about client-server networking model. Client-side technologies and server-side technologies are introduced.</description>
+ </item>
+
+ <item>
+ <title>Web planning and design</title>
+ <link>https://www.eit.ac.nz/subject-areas/computing/</link>
+ <description>How to plan well and website project and how to design a beautiful website? What is Mobile-first approach? Why website responsive and how
+to do?</description>
+ </item>
+
+ <item>
+ <title>XML</title>
+ <link>https://www.eit.ac.nz/subject-areas/computing/</link>
+ <description>What is XML? What for? Will XML replace HTML? Should we use XML instead of database?</description>
+ </item>
+ </channel>
+</rss>

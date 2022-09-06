@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<!-- setting or confirguration of the website-->
+<head>
+    <meta charset = "UTF-8">
+    <title>Lab-1</title>
+    <meta name = "viewport" content = "width = device-width, initial-scale: 1.0">
+    <link rel="stylesheet" style="text/css" href="CSS/style.css">
+</head>
+<!-- everything visible on browser-->
+<body>
+    <header> 
+
+        <!--Here we use flexbox-->
+        <div class="flexbox-container">
+            <div class="logo">
+                <img src="Media/global.png" alt="Logo">
+        </div>
+            
+            <div class="box-2">
+                <p class="classID">ITWD6.408</p>
+            </div>
+            <div class="box-3">
+                <div class="horizontal-nav">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="Form.html">FORM</a></li>
+						<li><a href="xml-json.html">XML/JSON</a></li>
+						<li><a href="js-demo.html">JAVASCRIPT</a></li>
+						<li class="active"><a href="research.html">RESEARCH</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box-4">
+                <p onclick="openNav()">≡</p>
+            </div>
+        </div>
+
+        <!-- This is the curtain menu, default is collapsed when loading page-->
+        <nav id="curtain-nav">
+            <a href="javascript:void(0)" class="nav-close-button" onclick="closeNav()">❌</a>
+			<div class="curtain-nav-content">
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="Form.html">FORMS</a></li>
+					<li><a href="xml-jsaon.html">XML/JSON</a></li>
+					<li><a href="js-demo.html">JAVASCRIPT</a></li>
+					<li class="active"><a href="research.html">RESEARCH</a></li>	
+				</ul>
+			</div>
+        </nav>
+
+
+    </div>
+
+
+    </header>
+
+<main>
+
+
+    
+    <h1> My Website Research Page</h1>
+    <section class ="Sflipboxcont">
+
+        <article>
+            <div class="Sflip-box">
+                <div class="Sflip-box-inner">
+                  <div class="Sflip-box-front">
+
+                    <h2>Copyright,</h2>
+                    <h2>Creative Common (CC)</h2>
+                    <div class = "Sflip-portrait">
+                    <img src="http://d2klr1ixr44jla.cloudfront.net/0/0/assets/images/551326f8b13b7baa41000047.png"  alt="html logo"/>
+                    </div>                    
+                  </div>
+                  <div class="Sflip-box-back">
+                    <h4>It is a basic principle of copyright that the expression of an idea in an original work is legally protected by copyright as soon as it becomes 'recorded in material form' (viewable by others).
+                        In other words, write it down, draw, record, or film it, and the original material is automatically protected by copyright.
+                        <a href= "https://www.tki.org.nz/Copyright-in-schools/Guidelines-for-schools/For-students/What-is-copyright#:~:text=It%20is%20a%20basic%20principle,is%20automatically%20protected%20by%20copyright.">
+                            more info.</a>  </h4>
+                  </div>
+                </div>
+              </div>
+        </article>
+
+        <article>
+            <div class="Sflip-box">
+                <div class="Sflip-box-inner">
+                  <div class="Sflip-box-front">
+
+                    <h2>Privacy</h2>
+                    <h2>Privacy Policy</h2>
+                    <div class = "Sflip-portrait">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW7TZmca9p6u8taDWC6JwSnpAWC0jwimyLfw&usqp=CAU"/>
+                    </div>
+                  </div>
+                  <div class="Sflip-box-back">
+                    <h4>A Privacy Policy is a statement or a legal document that states how a company or website collects,
+                         handles and processes data of its customers and visitors. It explicitly 
+                        describes whether that information is kept confidential, or is shared with or sold to third parties. 
+                        <A href="https://www.privacypolicies.com/blog/privacy-policy-template/">More Info.</A></h4>
+                  </div>
+                </div>
+              </div>
+        </article>
+
+        <article>
+            <div class="Sflip-box">
+                <div class="Sflip-box-inner">
+                  <div class="Sflip-box-front">
+
+                        
+                    
+                        
+                    
+                    <h3>Search Engine Optimization</h3>
+                    <div class = "Sflip-portrait">
+                        <img src="https://th.bing.com/th/id/OIP.nll3mNF2_iSLUn5_TIDUfQHaHa?pid=ImgDet&rs=1" />
+                    </div>                     
+                  </div>
+                  <div class="Sflip-box-back">
+                   <p> 1)Submit your website to Google Search Console.</p>
+                   <p> 2)Submit your site to Google MyBusiness. </p>
+                   <p> 3)Make sure your site loads fast, especially on mobile devices.</p>
+                   <p> 4)Determine the right keywords.</p>
+                   <P>5)Create relevant backlinks to your site.</P>
+                   <p><a href="https://trustway.marketing/improve-website-visibility-on-search-engines/">More info.</a></p>
+                
+                  </div>
+                </div>
+              </div>
+        </article>
+
+    </section>
+
+    <section class ="Sflipboxcont">
+
+        <article>
+            <div class="Sflip-box">
+                <div class="Sflip-box-inner">
+                  <div class="Sflip-box-front">
+
+                    <h2>Web Publishing</h2>
+                    <div class = "Sflip-portrait">
+                    <img src="https://opensource.com/sites/default/files/lead-images/web_browser_desktop_devlopment_design_system_computer.jpg"  alt="html logo"/>
+                    </div>                    
+                  </div>
+                  <div class="Sflip-box-back">
+                    <p>
+                        When it comes to security, consider a few factors such as access management, an SSL certificate, firewall, network monitoring, 
+                        and automated backups and updates. A good web hosting provider should 
+                        offer a robust and secure system to limit the admin and user privileges to the website. The back-end should be limited only to the IPs you use.
+                        <A href="https://www.hostinger.com/tutorials/how-to-choose-a-web-hosting-provider#:~:text=When%20it%20comes%20to%20security%2C%20consider%20a%20few,be%20limited%20only%20to%20the%20IPs%20you%20use.">More Info.</A>
+                   
+                    </p>
+                  </div>
+                </div>
+              </div>
+        </article>
+
+        <article>
+            <div class="Sflip-box">
+                <div class="Sflip-box-inner">
+                  <div class="Sflip-box-front">
+
+                    <h3>Web Performance & Maintenance</h3>
+                    <div class = "Sflip-portrait">
+                        <img src="data:image/jpeg;base64,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"/>
+                    </div>
+                  </div>
+                  <div class="Sflip-box-back">
+                    <p>1. Compress Images</p>
+                    <p>2. Minify Your Code</p>
+                    <p>3. Browser Caching</p>
+                    <p>4. Optimize Your File</p>
+                    <p>5. Reliable Hosting</p>
+                    <p><a href="https://www.hiddentechies.com/blog/ecommerce-tips/5-ways-you-can-reduce-websites-page-loading-time/">More Info </a></p>
+                  </div>
+                </div>
+              </div>
+        </article>
+
+        <article>
+            <div class="Sflip-box">
+                <div class="Sflip-box-inner">
+                  <div class="Sflip-box-front">
+
+                        
+                    
+                        
+                    
+                    <h2>Web Security</h2>
+                    <div class = "Sflip-portrait">
+                        <img src="data:image/jpeg;base64,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" />
+                    </div>                     
+                  </div>
+                  <div class="Sflip-box-back">
+                  <p>Malware</p>
+                  <p>Phishing</p>
+                  <p>Data Breaches</p>
+                  <p>DDoS Attack and Botnets</p>
+                  <p>Ransomware</p>
+                  <p><a href="https://www.stanfieldit.com/cyber-security-threats/">More Info</a></p>
+                  </div>
+                </div>
+              </div>
+        </article>
+
+    </section>
+
+    
+</main>
+
+</body>
+    <footer>
+        Created by Tremaine Rees Nicholson-Reddy <br>
+        nichot17@student.eit.ac.nz
+    </footer>
+    <!-- Link HTML document to JS-->
+    <script type="text/javascript" src="JS/javascript.js">
+    </script>
+
+</html>
